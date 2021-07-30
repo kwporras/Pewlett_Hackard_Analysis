@@ -1,5 +1,3 @@
-EmployeeDB Schema text
-
 Departments
 -
 dept_no varchar pk
@@ -7,8 +5,8 @@ dept_name varchar
 
 Dept_Emp
 -
-emp_no int pk fk -< Employees.emp_no 
-dept_no varchar fk -< Departments.dept_no
+emp_no int fk - Employees.emp_no fk - Salaries.emp_no
+dept_no varchar fk - Departments.dept_no
 from_data date
 to_data date
 
@@ -30,14 +28,17 @@ hire_data date
 
 Titles
 -
-emp_no int pk fk -< Employees.emp_no
+emp_no int fk - Employees.emp_no fk - Salaries.emp_no
 title varchar
 from_data date
 to_data date
 
 Salaries
 -
-emp_no int pk fk - Employees.emp_no fk - Titles.emp_no fk - Dept_Emp.emp_no
+emp_no int pk fk - Employees.emp_no
 salary int 
 from_data date
 to_data date
+
+
+
