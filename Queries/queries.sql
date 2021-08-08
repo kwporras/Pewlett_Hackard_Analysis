@@ -295,7 +295,7 @@ re.last_name,
 re.title
 INTO unique_titles
 FROM retirement_titles as re
-ORDER BY re.emp_no, re.emp_no DESC;
+ORDER BY re.emp_no, re.to_date DESC;
 
 -- To retrieve the number of employees by their most recent job title who are about to retire
 SELECT COUNT(un.title), un.title 
