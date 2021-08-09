@@ -1,0 +1,8 @@
+emp_no,first_name,last_name,title,dept_no,dept_name
+110183,Shirish,Ossenbruggen,Staff,d003,Human Resources
+110386,Shem,Kieras,Technique Leader,d004,Production
+110765,Rutger,Hofmeyr,Technique Leader,d006,Quality Management
+111133,Hauke,Zhang,Manager,d007,Sales
+111534,Hilary,Kambil,Manager,d008,Research
+111692,Tonny,Butterworth,Staff,d009,Customer Service
+,,,,d009,Customer Service
