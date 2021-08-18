@@ -20,7 +20,7 @@ Pewlett Hackard is a matured company preparing for a wave of employee retirement
     - 2 Manager
 
 
-4) Of the retirement eligible employees [the follow](Data/mentorship_eligibilty.csv) would be ideal candidates for the Mentorship Program. However, the 1,549 eligible employees seem too insufficient when compared to the overall size of the company.
+4) Of the retirement eligible employees [the following](Data/mentorship_eligibilty.csv) would be ideal candidates for the Mentorship Program. However 1,549  employees seem  insufficient when compared to the overall size of the company.
    - 29 Assistant Engineer
    - 190 Engineer
    - 529 Senior Engineer
